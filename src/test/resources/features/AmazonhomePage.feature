@@ -16,7 +16,7 @@ Scenario Outline: Validate the Home page
     Examples:
     
     |  Username                     |   Password      | keyword                    |
-    |  jagadeesh88.n@gmail.com      |  Audiomanajer@2 | gionee 10000mah power bank |
+    |  admin@gmail.com              |  admin1234      | gionee 10000mah power bank |
     
     
 
