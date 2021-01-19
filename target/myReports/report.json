@@ -1,0 +1,146 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-19T05:50:15.810Z",
+        "line": 19,
+        "name": "Validate the Home page",
+        "description": "",
+        "id": "amazon-homepage-feature;validate-the-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9034052900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on amazon login Page",
+            "match": {
+              "location": "stepDefinition.AmazonhomePageStepDef.user_is_on_amazon_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1177555100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Signin button",
+            "match": {
+              "location": "stepDefinition.AmazonhomePageStepDef.user_clicks_on_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1452247400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the \"jagadeesh88.n@gmail.com\" and \"Audiomanajer@2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jagadeesh88.n@gmail.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Audiomanajer@2\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.AmazonhomePageStepDef.user_enters_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196857800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User cliks on Enter button",
+            "match": {
+              "location": "stepDefinition.AmazonhomePageStepDef.user_cliks_on_enter_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.i]n\u003e but was:\u003c[Amazon Sign I]n\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinition.AmazonhomePageStepDef.user_validates_the_amazon_home_page(AmazonhomePageStepDef.java:49)\r\n\tat ✽.User validates the Amazon HomePage(file:///D:/Softwares/Eclipse-java/microlandAmazon/src/test/resources/features/AmazonhomePage.feature:8)\r\n",
+              "duration": 1389221700,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "User validates the Amazon HomePage",
+            "match": {
+              "location": "stepDefinition.AmazonhomePageStepDef.user_validates_the_amazon_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enters the \"gionee 10000mah power bank\" in search feild",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gionee 10000mah power bank\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.AmazonhomePageStepDef.user_enters_the_in_search_feild(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1018800,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User click the search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1992800,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User selects the item",
+            "match": {
+              "location": "stepDefinition.AmazonhomePageStepDef.user_selects_the_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User place the order",
+            "match": {
+              "location": "stepDefinition.AmazonhomePageStepDef.user_place_the_order()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon homePage Feature",
+    "description": "",
+    "id": "amazon-homepage-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AmazonhomePage.feature",
+    "tags": []
+  }
+]

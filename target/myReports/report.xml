@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.784">
+    <testcase classname="Amazon homePage Feature" name="Validate the Home page" time="13.405">
+        <failure message="expected:&lt;[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.i]n&gt; but was:&lt;[Amazon Sign I]n&gt;" type="junit.framework.ComparisonFailure"><![CDATA[Given user is on amazon login Page..........................................passed
+When user clicks on Signin button...........................................passed
+And User enters the "jagadeesh88.n@gmail.com" and "Audiomanajer@2"..........passed
+And User cliks on Enter button..............................................passed
+And User validates the Amazon HomePage......................................failed
+And user enters the "gionee 10000mah power bank" in search feild............skipped
+And User click the search button............................................skipped
+And User selects the item...................................................skipped
+And User place the order....................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.i]n> but was:<[Amazon Sign I]n>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinition.AmazonhomePageStepDef.user_validates_the_amazon_home_page(AmazonhomePageStepDef.java:49)
+	at ✽.User validates the Amazon HomePage(file:///D:/Softwares/Eclipse-java/microlandAmazon/src/test/resources/features/AmazonhomePage.feature:8)
+]]></failure>
+    </testcase>
+</testsuite>
